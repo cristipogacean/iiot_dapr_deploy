@@ -23,7 +23,7 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: prod
+  namespace: crpogacedapr
   name: vote-front-{{.Release.Name}}
 spec:
   replicas: 1
