@@ -1,13 +1,18 @@
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
-  name: azure-arc-sample
+  name: dapr-pub-sub-demo
   namespace: crpogacedapr
 spec:
-  releaseName: arc-k8s-demo
+  # releaseName: arc-k8s-demo
+  # chart:
+  #   git: https://github.com/cristipogacean/iiot_dapr_deploy
+  #   ref: master
+  #   path: charts/dapr
+  # values:
+  #   serviceName: arc-k8s-demo
+  releaseName: dapr-pub-sub-demo
   chart:
     git: https://github.com/cristipogacean/iiot_dapr_deploy
     ref: master
-    path: charts/dapr
-  values:
-    serviceName: arc-k8s-demo
+    path: charts/pub-sub
