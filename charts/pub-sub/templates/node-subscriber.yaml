@@ -18,6 +18,7 @@ spec:
         dapr.io/enabled: "true"
         dapr.io/app-id: "node-subscriber"
         dapr.io/app-port: "3000"
+        dapr.io/config: zipkin
     spec:
       containers:
       - name: node-subscriber

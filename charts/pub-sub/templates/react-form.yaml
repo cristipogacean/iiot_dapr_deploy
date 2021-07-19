@@ -35,6 +35,7 @@ spec:
         dapr.io/enabled: "true"
         dapr.io/app-id: "react-form"
         dapr.io/app-port: "8080"
+        dapr.io/config: zipkin
     spec:
       containers:
       - name: react-form
