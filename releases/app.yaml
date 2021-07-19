@@ -4,13 +4,6 @@ metadata:
   name: dapr-pub-sub-demo
   namespace: crpogacedapr
 spec:
-  # releaseName: arc-k8s-demo
-  # chart:
-  #   git: https://github.com/cristipogacean/iiot_dapr_deploy
-  #   ref: master
-  #   path: charts/dapr
-  # values:
-  #   serviceName: arc-k8s-demo
   releaseName: dapr-pub-sub-demo
   chart:
     git: https://github.com/cristipogacean/iiot_dapr_deploy
